@@ -1,0 +1,13 @@
+CREATE TABLE pessoa(
+id int primary key AUTO_INCREMENT NOT NULL,
+nome varchar(40) NOT NULL,
+telefone varchar(15),
+email varchar(50));
+
+INSERT INTO pessoa (nome, telefone, email) VALUES
+    -> ('allan','34996604472','allanramos2012@gmail.com'),
+    -> ('kall','34998604472','kallramos2012@gmail.com'),
+    -> ('Jesus','12996604472','jesus@gmail.com'),
+    -> ('barbara','91996604472','barbara@gmail.com'),
+    -> ('georgenaldo','34996604372','georg@gmail.com'),
+    -> ('juraci','34996604477','evan@gmail.com');
